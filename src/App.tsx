@@ -32,7 +32,7 @@ function App() {
     headers: { "ab-domain": AB_DOMAIN, app: APP },
   })
 
-  const usersName = JSON.stringify({ email: 'admin@fastconnect.com.br', password: 'Alibin102030' });
+  const usersName = JSON.stringify({ email:, password: });
   const customConfig = {
       headers: {
       'Content-Type': 'application/json',
